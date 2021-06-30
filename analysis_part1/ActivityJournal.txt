@@ -1,0 +1,80 @@
+SWEN-250 Document Analysis Journal
+
+Implement these functions in the order below.
+
+Your name: Eric Nilsson
+
+================================================================
+create_node
+Start
+Estimated Time	30M
+Plan:
+Keep implementing the function until the tests pass. Then move
+onto the next function.
+
+Complete
+Actual Time	3H
+Observations: When adding value to a pointer operator an
+easy way to derefernce the operator and get the actual value
+by using the -> operator.
+
+
+================================================================
+add_node_at_head
+Start
+Estimated Time	2H
+Plan:Implement the p_next and p_previous values and then makes sure
+one that works and that i'm able to make them link together.
+
+Complete
+Actual Time	1H
+Observations: You have to make sure you link all of the nodes together
+before you start worrying about where you're going to play the nodes
+in the linkedlist. 
+
+
+================================================================
+clear_linked_list
+Start
+Estimated Time	2H
+Plan:IMplement getting rid of the linked list and destorying the connections
+inbetween the nodes.
+
+Complete
+Actual Time	3H
+Observations:You have to deal witht he current node and then free all the nodes
+from the current node instead of doing it from the head. Also freeing all the current nodes
+and setting them to NULL doesnt chnage the lists actual head and tail so you need to chnage
+that to NULL as well.
+
+
+================================================================
+add_node_after_current
+Start
+Estimated Time	2H
+Plan:IMplement adding a node after the current node correctly and run tests to make
+sure it works.
+
+Complete
+Actual Time	1H30M
+Observations:
+You need to make sure you link the new node to every thing before actualy changing
+anything around in p_list. Also when it's the only node in the list use the function
+they give you as a hint because that actually works.
+
+================================================================
+find_word
+Start
+Estimated Time	2H
+Plan:
+Traverse throught the linked list struct and find the word that they are looking for
+
+Complete
+Actual Time	1H 10M
+Observations:
+You have to compare hte differnce in the strcmp funtion even if the word is < > 0
+so that you can find out the intersection poiunt inthe list. Also when traversing
+the list make sure you start at the head and then move to the end becasue current
+might no be the start of the list
+
+================================================================

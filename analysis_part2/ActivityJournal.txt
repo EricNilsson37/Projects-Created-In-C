@@ -1,0 +1,128 @@
+SWEN-250 Document Analysis Journal
+
+Implement these functions in the order below.
+
+Your name: Eric Nilsson
+
+================================================================
+process_word
+Start
+Estimated Time	1H
+Plan:
+Implement the methods in the functions and run the tests until the function
+passes all test calls
+
+Complete
+Actual Time	30M
+Observations:You can just call the methods fomr the linked_list_function.c without
+having to do anything else. Make sure you have you refernce the one_word
+correctly as well know the differnce between -> and . 
+
+================================================================
+get_first_word
+Start
+Estimated Time	1H
+Plan:
+Implemented grabbing the first word in the p_list
+
+Complete
+Actual Time	30M
+Observations:
+make sure that you set the entry.wordcount to 0 instead
+of actually returning 0 you return the entry struct.
+
+================================================================
+get_next_word
+Start
+Estimated Time	30M
+Plan:
+Implement in the function grabbing the next word after the word given in the p_list
+
+Complete
+Actual Time	20M
+Observations:
+Make sure that you change the p_current the the p_current->p_next
+becasue you have to update the p_list still
+
+================================================================
+get_last_word
+Start
+Estimated Time	30M
+Plan:
+Access the p_list->p_tail and make that the entry and then update everything
+that needs to be updated in p_list.
+
+Complete
+Actual Time	10M
+Observations:
+All you need to do is take the code from the get_first_word and just make it
+access the p_tail instead of the p_head
+
+================================================================
+get_prev_word
+Start
+Estimated Time	10M
+Plan:
+Just edit the code from get_next_word to just access the value that
+comes before it instead of after it
+
+Complete
+Actual Time	5M
+Observations: It's very easy to change inbetween the get_next_word
+with this function becasue you only have to chnage about 2 lines for it to work
+since the 2 function operate very similarly.
+
+================================================================
+read_file through test 56
+Start
+Estimated Time	1H
+Plan:
+Use all the accumulative Methods and functions to pass all the tests and fine tune
+any tests that need it.
+
+Complete
+Actual Time	6H
+Observations:
+Even thought all youre test from linked_list_functions passed doesnt mean that they actually work.
+I had to replace that entire file with the solutions given before my code actually worked. My
+read_file and all other functions with it worked the issues was the linked_list_functions
+even thgough all the tests passed.
+
+================================================================
+read_file MLK_dream_excerpt only
+Start
+Estimated Time	1H
+Plan:
+Implement all need ffunctions and methods while looping through the file
+
+Complete
+Actual Time	10M
+Observations:
+Once all the files are optimized and running well all the test s pass
+
+================================================================
+write_unique_word_list_to_csv_file
+Start
+Estimated Time	1H
+Plan:
+Loop through all the words and create a csv line for each word
+
+Complete
+Actual Time	30M
+Observations:
+Make sure you use the code given to you like the fopen stuff so that you can edit the csv file.
+
+================================================================
+Add four unit tests to the unit_tests_student.c file
+Start
+Estimated Time	HH MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+Complete
+Actual Time	HH MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+
+================================================================

@@ -1,0 +1,19 @@
+SWEN-250 Activity Reflection
+
+Name:Eric NIlsson
+
+================================================================
+Start 
+Estimated Time	1:30
+Plan:Get first loop through the file correctly for each char, then move onto
+usinf if statements to organize what values are what using the getchar() method.
+Then when sorting what each value is add one to the total for that category ie words,lines,chars
+
+Complete
+Actual Time	3:00
+Observations:Really hard to deal with double spaces and double lines, basically all space
+characters followed by anoter spacecharacter. Then dealing with the spacing of the text becasue that's
+just tedious. 
+
+
+================================================================

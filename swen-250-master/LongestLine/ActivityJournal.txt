@@ -1,0 +1,33 @@
+SWEN-250 Activity Reflection
+
+Name: Eric Nilsson
+
+================================================================
+Start Part 1
+Estimated Time	30M
+Plan:Take the structure of the readline from class and just modify it to fit the
+current needs of the new readline function.
+
+Complete
+Actual Time	30M
+Observations:You gotta mkake sure you move the char along the String I didnt
+realize that you needed to make sure it moves alonf so that it can get
+the next char in the array of chars.
+
+I compiled it about 7-8 times before I got it to work.
+
+
+================================================================
+Start Part 2
+Estimated Time1H
+Plan:Implement the copy function run the tests and figure out what I need
+to do for the main function
+
+
+Complete
+Actual Time	1H
+Observations:
+I still have no idea what ctrl D does but I got it to print the longest line at
+least.
+
+================================================================

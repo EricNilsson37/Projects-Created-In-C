@@ -1,0 +1,18 @@
+SWEN-250 Activity Reflection
+
+Name: Eric NIlsson
+ 
+================================================================
+Start
+Estimated Time	2H
+Plan:Make the function for each test then run the test for that fnction and only move
+on to the next function once all the test for the previos function work
+
+Complete
+Actual Time	3H
+Observations: Usng pointer you have to chnage wher hte pointer point instead
+of doing an index and you have to make sure reset wher the pointer point if you
+do this multiple times.
+
+
+================================================================

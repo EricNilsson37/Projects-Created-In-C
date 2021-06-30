@@ -1,0 +1,17 @@
+SWEN-250 Activity Reflection
+
+Name: Eric Nilsson
+
+================================================================
+Start Part 1
+Estimated Time	1H 30M
+Plan:Go through and implement one test at a time and then etst it to see if it works
+and then when all the tests pass ove onto the next method.
+
+Complete
+Actual Time	3H
+Observations:The syntax in this thing was crazy I had such a hard tome trying to
+understand what was being passed in and what needed to come out of each method.
+
+
+================================================================

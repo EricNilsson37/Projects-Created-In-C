@@ -1,0 +1,102 @@
+/*
+ * Implementation of functions that find values in strings.
+ *****
+ * YOU MAY NOT USE ANY FUNCTIONS FROM <string.h>
+ *****
+ */
+
+#include <stdlib.h>
+#include <stdbool.h>
+
+#include "find.h"
+
+#define NOT_FOUND (-1)	// integer indicator for not found.
+
+/*
+ * Return the index of the first occurrence of <ch> in <string>,
+ * or (-1) if the <ch> is not in <string>.
+ */
+int find_ch_index(char string[], char ch) {
+  int x;
+  for(x = 0; x < sizeof(string); x ++){
+    if(string[x] == ch){
+      return x;
+    }
+  }
+  return -1;
+}
+
+/*
+ * Return a pointer to the first occurrence of <ch> in <string>,
+ * or NULL if the <ch> is not in <string>.
+ *****
+ * YOU MAY *NOT* USE INTEGERS OR ARRAY INDEXING.
+ *****
+ */
+char *find_ch_ptr(char *string, char ch) {
+  
+  for(string; *string != '\0'; string ++){
+
+    if(*string == ch){
+      return string;
+    }
+  }
+  return NULL;
+}
+
+/*
+ * Return the index of the first occurrence of any character in <stop>
+ * in the given <string>, or (-1) if the <string> contains no character
+ * in <stop>.
+ */
+int find_any_index(char string[], char stop[]) {
+  int x;
+  int y;
+  int finds;
+
+  for(x = 0; string[x] != '\0'; x ++){
+    for(y = 0; stop[y] != '\0'; y ++){
+      if(string[x] == stop[y]){
+	finds = 1;
+	return x;
+      }
+    }
+  }
+  if(finds == 0){
+    return -1;
+  }
+  return x;
+}
+
+/*
+ * Return a pointer to the first occurrence of any character in <stop>
+ * in the given <string> or NULL if the <string> contains no characters
+ * in <stop>.
+ *****
+ * YOU MAY *NOT* USE INTEGERS OR ARRAY INDEXING.
+ *****
+ */
+char *find_any_ptr(char *string, char* stop) {
+  for(string; *string != '\0'; string ++){
+    for(stop; *stop != '\0'; stop++){
+      if(*string == *stop){
+	return string;
+      }
+    }
+  }
+  return NULL;
+}
+
+/*
+ * Return a pointer to the first character of the first occurrence of
+ * <substr> in the given <string> or NULL if <substr> is not a substring
+ * of <string>.
+ * Note: An empty <substr> ("") matches *any* <string> at the <string>'s
+ * start.
+ *****
+ * YOU MAY *NOT* USE INTEGERS OR ARRAY INDEXING.
+ *****
+ */
+char *find_substr(char *string, char* substr) {
+	return NULL ;	// placeholder
+}

@@ -1,0 +1,18 @@
+SWEN-250 Activity Reflection
+
+Name:Eric NIlsson
+
+================================================================
+Start
+Estimated Time	1H
+Plan:
+create the readable function and change the aribles from the line
+into pointers than change the value to an int or decimal etc.
+
+Complete
+Actual Time	2H
+Observations:
+Making pointers sucks, you have to switch the value the pointer looks at the change the value, to actuall change the value
+
+
+================================================================
